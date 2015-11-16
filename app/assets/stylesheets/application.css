@@ -13,3 +13,14 @@
  *= require_tree .
  *= require_self
  */
+
+#all_text{
+	font-family: 'Roboto Mono' ;
+
+}
+
+.userinfo{
+	position: fixed;
+  bottom: 0;
+  width: 100%;
+}

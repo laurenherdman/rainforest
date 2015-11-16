@@ -1,3 +1,34 @@
 // Place all the styles related to the products controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+.product_page{
+	text-align: center;
+}
+
+#product_title{
+	background: #ccffff;
+
+	color: white;
+	padding: 10px;
+	font-size: 30px;
+	text-shadow: 1px 1px #000000;
+}
+
+#review_title{
+
+}
+
+
+
+.title{
+	text-align: center;
+	color: #ccffff;
+	text-shadow:
+   -1px -1px 0 #000,
+    1px -1px 0 #000,
+    -1px 1px 0 #000,
+     1px 1px 0 #000;
+	font-size: 50px;
+}
+
+

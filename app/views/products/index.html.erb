@@ -1,6 +1,7 @@
 
-<h1>Products</h1>
-<%= link_to "New Product", "/products/new" %>
+<h1 class = "title" >Products</h1>
+
+
 
 <% @products.each do |product| %>
   <p>
@@ -10,4 +11,7 @@
   	<%= product.formatted_price %>
 
   </p>
+
 <% end %>
+<br><br>
+<%= link_to "New Product", "/products/new" %>
